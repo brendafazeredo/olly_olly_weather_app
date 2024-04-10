@@ -81,7 +81,7 @@ class _WeatherPageState extends State<WeatherPage> {
                     location,
                     style: TextStyle(
                       color: Color(0xFFF05C59),
-                      fontSize: 12, // Adjusted font size
+                      fontSize: 12,
                     ),
                     textAlign: TextAlign.center,
                   ),

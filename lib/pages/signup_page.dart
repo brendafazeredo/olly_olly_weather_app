@@ -16,7 +16,7 @@ class SignUpPage extends StatelessWidget {
   final TextEditingController confirmPasswordController = TextEditingController();
 
   void signUp() {
-  // Navigate to the WeatherPage using the context passed in the constructor
+  // going to the WeatherPage
   Navigator.push(
     context,
     MaterialPageRoute(builder: (context) => WeatherPage()),

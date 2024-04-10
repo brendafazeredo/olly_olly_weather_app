@@ -93,7 +93,7 @@ class LoginPage extends StatelessWidget {
                     cursor: SystemMouseCursors.click,
                     child: MyButton(
                       onTap: () {
-                        // Navigate to the WeatherPage
+                        // going to the WeatherPage
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => WeatherPage()),
