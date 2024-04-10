@@ -76,11 +76,14 @@ class _WeatherPageState extends State<WeatherPage> {
                   ),
                 ),
                 SizedBox(height: 25),
-                Text(
-                  location,
-                  style: TextStyle(
-                    color: Color(0xFFF05C59),
-                    fontSize: 14,
+                Center(
+                  child: Text(
+                    location,
+                    style: TextStyle(
+                      color: Color(0xFFF05C59),
+                      fontSize: 12, // Adjusted font size
+                    ),
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 SizedBox(height: 10),
