@@ -80,7 +80,7 @@ class _WeatherPageState extends State<WeatherPage> {
                   location,
                   style: TextStyle(
                     color: Color(0xFFF05C59),
-                    fontSize: 15,
+                    fontSize: 14,
                   ),
                 ),
                 SizedBox(height: 10),
