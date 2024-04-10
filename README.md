@@ -2,7 +2,7 @@
 
 A Weather App Flutter project
 
-*** The project has: ***
+## The project has:
 
 - A Log In (Sign In) page;
 - A Sign Up page;
