@@ -75,7 +75,7 @@ class _WeatherPageState extends State<WeatherPage> {
                     fontSize: 20,
                   ),
                 ),
-                SizedBox(height: 25),
+                SizedBox(height: 20),
                 Center(
                   child: Text(
                     location,
