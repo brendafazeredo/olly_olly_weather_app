@@ -2,15 +2,10 @@
 
 A Weather App Flutter project
 
-## Getting Started
+*** The project has: ***
 
-This project is a starting point for a Flutter application.
+- A Log In (Sign In) page;
+- A Sign Up page;
+- A Weather page (with latitude and longitude coordinates + current temperature in Fahrenheit).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project is not connected to a back-end, neither to a database. These and other details can be implemented/ increased in the future.
