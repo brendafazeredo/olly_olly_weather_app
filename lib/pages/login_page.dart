@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
 
                 // logo
                 Image.asset(
@@ -36,7 +36,7 @@ class LoginPage extends StatelessWidget {
                 Text(
                   'Welcome back',
                   style: TextStyle(
-                    color: Color(0xFFF05C59),
+                    color: const Color(0xFFF05C59),
                     fontSize: 20,
                   ),
                 ),
@@ -72,7 +72,7 @@ class LoginPage extends StatelessWidget {
                           cursor: SystemMouseCursors.click,
                           child: GestureDetector(
                             onTap: () {},
-                            child: Text(
+                            child: const Text(
                               'Forgot password?',
                               style: TextStyle(color: Color(0xFFF05C59)),
                               textAlign: TextAlign.end,
@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
 
                 // or continue with text
                 Padding(
@@ -114,12 +114,12 @@ class LoginPage extends StatelessWidget {
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Color(0xFFF05C59),
+                          color: const Color(0xFFF05C59),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                        child: Text(
+                        child: const Text(
                           'or continue with',
                           style: TextStyle(color: Color(0xFFF05C59)),
                         ),
@@ -127,14 +127,14 @@ class LoginPage extends StatelessWidget {
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Color(0xFFF05C59),
+                          color: const Color(0xFFF05C59),
                         ),
                       ),
                     ],
                   ),
                 ),
 
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
 
                 // google and apple sign in buttons
                 Row(
@@ -158,7 +158,7 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
 
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
 
                 // don't have an account text
                 Row(
@@ -166,7 +166,7 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Text(
                       'Don\'t have an account?',
-                      style: TextStyle(color: Color(0xFFF05C59)),
+                      style: TextStyle(color: const Color(0xFFF05C59)),
                     ),
                     const SizedBox(width: 4),
                     // sign up text
@@ -183,7 +183,7 @@ class LoginPage extends StatelessWidget {
                         child: Text(
                           'Sign up',
                           style: TextStyle(
-                            color: Color(0xFFF05C59),
+                            color: const Color(0xFFF05C59),
                             fontWeight: FontWeight.bold,
                           ),
                         ),

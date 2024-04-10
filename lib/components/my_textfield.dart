@@ -23,13 +23,13 @@ class MyTextField extends StatelessWidget {
           enabledBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: Color(0xFFF05C59)), // Updated border color
           ),
-          focusedBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: const Color(0xFFF05C59)), // Updated border color
+          focusedBorder: const OutlineInputBorder(
+            borderSide: BorderSide(color: Color(0xFFF05C59)), // Updated border color
           ),
           fillColor: Colors.white, // Filled with white
           filled: true,
           hintText: hintText,
-          hintStyle: TextStyle(color: const Color(0xFFF05C59)), // Updated hint text color
+          hintStyle: const TextStyle(color: Color(0xFFF05C59)), // Updated hint text color
         ),
       ),
     );
