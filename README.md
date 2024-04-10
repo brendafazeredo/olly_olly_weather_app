@@ -1,4 +1,4 @@
-# olly_olly_weather_app
+# Olly Olly Weather App
 
 A Weather App Flutter project
 
