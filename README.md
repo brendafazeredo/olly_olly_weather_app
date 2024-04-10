@@ -8,4 +8,4 @@ A Weather App Flutter project
 - A Sign Up page;
 - A Weather page (with latitude and longitude coordinates + current temperature in Fahrenheit).
 
-The project is not connected to a back-end, neither to a database. These and other details can be implemented/ increased in the future.
+The project is not connected to a back-end, nor to a database. These and other details can be implemented/ increased in the future.
