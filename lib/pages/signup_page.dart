@@ -33,7 +33,7 @@ class SignUpPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // logo
                 Image.asset(
@@ -53,7 +53,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 25),
+                const SizedBox(height: 20),
 
                 // username field
                 MyTextField(
@@ -89,7 +89,7 @@ class SignUpPage extends StatelessWidget {
                   obscureText: true,
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // sign up button
                 Padding(
@@ -103,7 +103,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // or continue with text
                 Padding(
@@ -133,7 +133,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // google and apple sign in buttons
                 Row(
@@ -157,7 +157,7 @@ class SignUpPage extends StatelessWidget {
                   ],
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // already have an account? text
                 Row(

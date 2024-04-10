@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // logo
                 Image.asset(
@@ -41,7 +41,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 25),
+                const SizedBox(height: 20),
 
                 // e-mail or username field
                 MyTextField(
@@ -84,7 +84,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 25),
+                const SizedBox(height: 20),
 
                 // sign in button
                 Padding(
@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // or continue with text
                 Padding(
@@ -134,7 +134,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // google and apple sign in buttons
                 Row(
@@ -158,7 +158,7 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
 
                 // don't have an account text
                 Row(
